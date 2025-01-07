@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962D49972CEA89AE0031E095 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 962D49962CEA89AE0031E095 /* ConfettiSwiftUI */; };
+		962D49992CF3C1B90031E095 /* CurrentIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D49982CF3C1B90031E095 /* CurrentIngredientView.swift */; };
 		965CFDD52CDED91000EAE099 /* ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDD42CDED91000EAE099 /* ProjectApp.swift */; };
 		965CFDD72CDED91000EAE099 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDD62CDED91000EAE099 /* ContentView.swift */; };
 		965CFDD92CDED91100EAE099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965CFDD82CDED91100EAE099 /* Assets.xcassets */; };
 		965CFDDC2CDED91100EAE099 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965CFDDB2CDED91100EAE099 /* Preview Assets.xcassets */; };
+		965CFDE32CDEDFCE00EAE099 /* CocktailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDE22CDEDFCE00EAE099 /* CocktailStore.swift */; };
+		965CFDE52CDEE04300EAE099 /* CocktailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDE42CDEE04300EAE099 /* CocktailService.swift */; };
+		965CFDE72CDEE10E00EAE099 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDE62CDEE10E00EAE099 /* Object.swift */; };
+		965CFDE92CE04E3100EAE099 /* SingleCockTailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDE82CE04E3100EAE099 /* SingleCockTailView.swift */; };
+		965CFDEE2CE8F94A00EAE099 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFDED2CE8F94A00EAE099 /* testing.swift */; };
+		965CFE052CE8FA7C00EAE099 /* SingleRandomCocktailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CFE042CE8FA7C00EAE099 /* SingleRandomCocktailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		962D49982CF3C1B90031E095 /* CurrentIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentIngredientView.swift; sourceTree = "<group>"; };
 		965CFDD12CDED91000EAE099 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		965CFDD42CDED91000EAE099 /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
 		965CFDD62CDED91000EAE099 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		965CFDD82CDED91100EAE099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		965CFDDB2CDED91100EAE099 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		965CFDE22CDEDFCE00EAE099 /* CocktailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailStore.swift; sourceTree = "<group>"; };
+		965CFDE42CDEE04300EAE099 /* CocktailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailService.swift; sourceTree = "<group>"; };
+		965CFDE62CDEE10E00EAE099 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		965CFDE82CE04E3100EAE099 /* SingleCockTailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCockTailView.swift; sourceTree = "<group>"; };
+		965CFDED2CE8F94A00EAE099 /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
+		965CFE042CE8FA7C00EAE099 /* SingleRandomCocktailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRandomCocktailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +41,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962D49972CEA89AE0031E095 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		962D499B2D0146B20031E095 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				965CFDE22CDEDFCE00EAE099 /* CocktailStore.swift */,
+				965CFDE42CDEE04300EAE099 /* CocktailService.swift */,
+				965CFDE62CDEE10E00EAE099 /* Object.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		962D499C2D0146CC0031E095 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				965CFDD62CDED91000EAE099 /* ContentView.swift */,
+				965CFDE82CE04E3100EAE099 /* SingleCockTailView.swift */,
+				965CFE042CE8FA7C00EAE099 /* SingleRandomCocktailView.swift */,
+				962D49982CF3C1B90031E095 /* CurrentIngredientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		965CFDC82CDED91000EAE099 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				965CFDD42CDED91000EAE099 /* ProjectApp.swift */,
-				965CFDD62CDED91000EAE099 /* ContentView.swift */,
+				962D499C2D0146CC0031E095 /* Views */,
+				962D499B2D0146B20031E095 /* Store */,
+				965CFDED2CE8F94A00EAE099 /* testing.swift */,
 				965CFDD82CDED91100EAE099 /* Assets.xcassets */,
 				965CFDDA2CDED91100EAE099 /* Preview Content */,
 			);
@@ -83,6 +122,9 @@
 			dependencies = (
 			);
 			name = Project;
+			packageProductDependencies = (
+				962D49962CEA89AE0031E095 /* ConfettiSwiftUI */,
+			);
 			productName = Project;
 			productReference = 965CFDD12CDED91000EAE099 /* Project.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,9 @@
 				Base,
 			);
 			mainGroup = 965CFDC82CDED91000EAE099;
+			packageReferences = (
+				962D49952CEA89AE0031E095 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 965CFDD22CDED91000EAE099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962D49992CF3C1B90031E095 /* CurrentIngredientView.swift in Sources */,
+				965CFDE72CDEE10E00EAE099 /* Object.swift in Sources */,
+				965CFE052CE8FA7C00EAE099 /* SingleRandomCocktailView.swift in Sources */,
 				965CFDD72CDED91000EAE099 /* ContentView.swift in Sources */,
+				965CFDEE2CE8F94A00EAE099 /* testing.swift in Sources */,
+				965CFDE92CE04E3100EAE099 /* SingleCockTailView.swift in Sources */,
 				965CFDD52CDED91000EAE099 /* ProjectApp.swift in Sources */,
+				965CFDE32CDEDFCE00EAE099 /* CocktailStore.swift in Sources */,
+				965CFDE52CDEE04300EAE099 /* CocktailService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		962D49952CEA89AE0031E095 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		962D49962CEA89AE0031E095 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 962D49952CEA89AE0031E095 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 965CFDC92CDED91000EAE099 /* Project object */;
 }
