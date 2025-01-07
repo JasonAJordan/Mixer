@@ -9,19 +9,19 @@ Documentation URL for API: https://www.thecocktaildb.com/api.php
 
 
 ### Cocktail Page
-![alt text](https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/2.png)
+<img src="https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/2.png" width="240" />
 
 ### Search By Name Feature
-![alt text](https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/6.png)
+<img src="https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/6.png" width="240" />
 
 ### Search By Ingredient Feature
-![alt text](https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/3.png)
+<img src="https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/4.png" width="240" />
 
 ### History Tab
-![alt text](https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/4.png)
+<img src="https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/4.png" width="240" />
 
 ### Favorite Tab
-![alt text](https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/5.png)
+<img src="https://raw.githubusercontent.com/JasonAJordan/Mixer/refs/heads/main/Project/Assets.xcassets/5.png" width="240" />
 
 
 
